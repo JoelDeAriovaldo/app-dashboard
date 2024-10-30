@@ -1,0 +1,57 @@
+.candidatos-container {
+    padding: 2rem;
+    background-color: #f0f2f5;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.filter-container input {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.candidate-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.candidate-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.candidate-item h4 {
+    margin: 0;
+}
+
+.candidate-item p {
+    margin: 0.5rem 0;
+}
